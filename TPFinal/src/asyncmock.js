@@ -1,10 +1,10 @@
 import "./asyncmock.css"
 
 const envasesGral = [
-    { id: "1", nombre: "Pote 100gr corto", precio: 50, img: "../imagenes/POO1-4.jpg", idCat:"2"},
-    { id: "2", nombre: "Pote 100gr largo", precio: 60, img: "../imagenes/POO2-2.jpg", idCat:"2" },
-    { id: "3", nombre: "Pico Doble 1lt", precio: 200, img: "../imagenes/BL08.jpg", idCat:"3" },
-    { id: "4", nombre: "Pico Doble 500cc", precio: 150, img: "../imagenes/BL10.jpg", idCat:"3" },
+    { id: "1", nombre: "Pote 100gr corto", precio: 50, img: "../imagenes/POO1-4.jpg", idCat:"2", stock: 100,},
+    { id: "2", nombre: "Pote 100gr largo", precio: 60, img: "../imagenes/POO2-2.jpg", idCat:"2", stock: 100, },
+    { id: "3", nombre: "Pico Doble 1lt", precio: 200, img: "../imagenes/BL08.jpg", idCat:"3", stock: 100, },
+    { id: "4", nombre: "Pico Doble 500cc", precio: 150, img: "../imagenes/BL10.jpg", idCat:"3", stock: 100, },
 ]
 
 
