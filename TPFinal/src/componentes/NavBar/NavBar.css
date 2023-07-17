@@ -1,0 +1,30 @@
+header {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+    background-color: rgb(39, 31, 145);
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.logo{
+    color:azure;
+    text-decoration: none;
+}
+
+.navLink{
+    text-decoration: none;
+    background-color: rgb(86, 160, 92);
+    border: 2px solid rgb(1, 49, 12);
+    border-radius: 5px;
+    color:aliceblue;
+
+}
+
+
+li {display: inline-block;
+margin: 1rem;
+cursor: pointer;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
