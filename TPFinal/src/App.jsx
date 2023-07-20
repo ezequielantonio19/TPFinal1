@@ -6,6 +6,7 @@ import CartWidget from "./componentes/CartWidget/CartWidget"
 import Home from "./componentes/Home/Home"
 import './App.css'
 import { CarritoProvider } from "./context/CarritoContext"
+import Cart from "./componentes/Cart/Cart"
 
 
 const App = () => {
@@ -21,7 +22,9 @@ const App = () => {
           <Route path="/" element={<ItemListContainer/>}/>
           <Route path="/categoria/:idCategoria" element={<ItemListContainer/>} />
           <Route path="/item/:idItem" element={<ItemDetailContainer/>}/>
-          <Route path='/cart' element={<h2> memmemrnrn </h2>} />
+          <Route path='/cart' element={<Cart/>} />
+          <Route path='/checkout' element={<h2>kskskssks</h2>} />
+
           <Route path="*" element={<h2>Esta sección aún no está disponible</h2>}/>
         </Routes>
 
