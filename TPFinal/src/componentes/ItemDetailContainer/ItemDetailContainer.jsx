@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react"
-import { getEnvase } from "../../asyncmock"
+//import { getEnvase } from "../../asyncmock"
 import ItemDetail from "../ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
+import {getDoc, doc} from "firebase/firestore";
+import { db } from '../../service/config';
 
 const ItemDetailContainer = () => {
 
@@ -9,13 +11,27 @@ const ItemDetailContainer = () => {
 
   const {idItem} = useParams(); 
 
-  useEffect (() =>{
-    getEnvase(idItem)
-    .then(res => setEnvase(res))
-    .catch (error => console.log(error))
 
-  }, [idItem]
-  )
+
+  useEffect( ()=> {
+    const nuevoDoc = doc(db, "Inventario", idItem);
+
+    getDoc(nuevoDoc)
+        .then(res => {
+            const data = res.data();
+            const nuevoProducto = {id:res.id, ...data};
+            setEnvase(nuevoProducto);
+        })
+        .catch(error => console.log(error))
+}, [idItem])
+
+  //useEffect (() =>{
+   // getEnvase(idItem)
+    //.then(res => setEnvase(res))
+    //.catch (error => console.log(error))
+
+  //}, [idItem]
+  //)
   return (
     <div> <ItemDetail  {...envase} /></div>
   )
