@@ -2,6 +2,7 @@ import { useState, useContext } from "react"
 import { CarritoContext } from "../../context/CarritoContext"
 import { db } from "../../service/config"
 import { collection, addDoc } from 'firebase/firestore'
+import './Checkout.css'
 
 const Chekout = () => { const { carrito, vaciarCarrito, cantidadTotal, total } = useContext(CarritoContext);
 const [nombre, setNombre] = useState("");
@@ -104,7 +105,7 @@ return (
                 error && <p style={{ color: "red" }}> {error} </p>
             }
 
-            <button type="submit"> Finalizar Compra </button>
+            <button type="submit" className="botonFinalizar"> Finalizar Compra </button>
         </form>
         {
             orderId && (

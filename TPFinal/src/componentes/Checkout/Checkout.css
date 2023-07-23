@@ -1,6 +1,6 @@
 .formulario {
     font-family: 'Ysabeau SC', sans-serif;
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -8,22 +8,23 @@
     font-family: 'Ysabeau SC', sans-serif;
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem;
+    margin-bottom: 1px;
+    font-size: 15px;
 }
 
 label {
     font-family: 'Ysabeau SC', sans-serif;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 1px;
 }
 
 input, textarea {
     font-family: 'Ysabeau SC', sans-serif;
-    padding: 0.5rem;
-    font-size: 1rem;
+    padding: 1px;
+    font-size: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 1rem;
+    margin-bottom: 5px;
 }
 
 
@@ -41,3 +42,24 @@ h2 {
     border: 1px solid black;
     border-radius: 5px;
 }
+
+
+.botonFinalizar {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .botonFinalizar:hover {
+    background-color: #45a049;
+  }
+  
+  .botonFinalizar:active {
+    background-color: #3e8e41;
+  }
+  

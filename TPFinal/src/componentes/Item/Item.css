@@ -12,4 +12,17 @@
     align-items: center;
     font-family: 'Ysabeau SC', sans-serif;
 }
+
+.verMas {
+    display: inline-block;
+    margin-bottom: 5px;
+  padding: 5px 10px;
+  background-color: #2196f3;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
     

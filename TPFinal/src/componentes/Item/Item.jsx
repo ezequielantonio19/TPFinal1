@@ -9,7 +9,7 @@ const Item = ({id, nombre, precio, img}) => {
         <h3>{nombre}</h3>
         <p>Precio: ${precio}</p>
         <p>Código de producto: {id}</p> 
-        <Link to= {`/Item/${id}`}> Ver más </Link>
+        <Link to= {`/Item/${id}`} className="verMas"> Ver más </Link>
     </div>
   )
 }
