@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-//import { getEnvases, getCategoria } from '../../asyncmock'
+
 import './ItemListContainer.css'
 import { useParams } from 'react-router-dom'
 import ItemList from '../ItemList/ItemList'
@@ -26,14 +26,7 @@ const ItemListContainer = ({ greeting }) => {
 }, [idCategoria])
 
 
- // useEffect(() => {
-   // const funcionEnvases = idCategoria ? getCategoria : getEnvases;
-
-    //funcionEnvases(idCategoria)
-      //.then(res => setEnvases(res))
-      //.catch(error => console.log(error))
-   
- // }, [idCategoria])
+ 
 
   return (
      <> <h2>
