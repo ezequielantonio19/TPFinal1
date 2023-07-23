@@ -65,13 +65,13 @@ return (
                     <p>
                         {producto.item.nombre} x {producto.cantidad}
                     </p>
-                    <p>Precio por unidad $ {producto.item.precio} </p>
+                    <p>Precio por unidad: $ {producto.item.precio} </p>
 
-                    <p>Subtotal $ {producto.item.precio * producto.cantidad} </p>
+                    <p>Subtotal: $ {producto.item.precio * producto.cantidad} </p>
                     
                     
                     <hr />
-                    <p>Total $ {total} </p>
+                    <h3>Total: $ {total} </h3>
                 </div>
             ))}
             <hr />

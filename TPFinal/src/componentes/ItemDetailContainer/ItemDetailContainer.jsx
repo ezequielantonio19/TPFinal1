@@ -25,13 +25,7 @@ const ItemDetailContainer = () => {
         .catch(error => console.log(error))
 }, [idItem])
 
-  //useEffect (() =>{
-   // getEnvase(idItem)
-    //.then(res => setEnvase(res))
-    //.catch (error => console.log(error))
-
-  //}, [idItem]
-  //)
+  
   return (
     <div> <ItemDetail  {...envase} /></div>
   )

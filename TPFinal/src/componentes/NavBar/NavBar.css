@@ -5,23 +5,38 @@ header {
     justify-content: space-between;
     border-bottom: 2px solid grey;
     background-color: rgb(31, 96, 145);
+    padding-left: 10px;
+    padding-right: 10px;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.logo{
+.logo {
     color:azure;
     text-decoration: none;
+    margin-left: 5px;
+    transition: color 1s;
 }
 
-.navLink{
+.logo:hover{
+    color:rgb(0, 6, 10);
+    
+}
+
+.navLink {
     text-decoration: none;
     background-color: rgb(86, 160, 92);
     border: 2px solid rgb(1, 49, 12);
     border-radius: 5px;
     color:aliceblue;
-
+    padding: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
 }
 
+.navLink:hover{
+    background-color: rgb(33, 61, 35);
+}
 
 li {display: inline-block;
 margin: 1rem;
