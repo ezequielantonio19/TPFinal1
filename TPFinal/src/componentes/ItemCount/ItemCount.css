@@ -12,6 +12,7 @@
   }
   
   .count-controls button {
+    font-family: 'Ysabeau SC', sans-serif;
     background-color: #3498db;
     color: #fff;
     border: none;
@@ -27,11 +28,13 @@
   }
   
   .count-controls p {
+    font-family: 'Ysabeau SC', sans-serif;
     font-size: 18px;
     font-weight: bold;
   }
   
   .item-count button {
+    font-family: 'Ysabeau SC', sans-serif;
     background-color: #ae7127;
     color: #fff;
     border: none;

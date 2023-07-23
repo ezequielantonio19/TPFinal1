@@ -1,20 +1,24 @@
 .formulario {
+    font-family: 'Ysabeau SC', sans-serif;
     max-width: 600px;
     margin: 0 auto;
 }
 
 .form-group {
+    font-family: 'Ysabeau SC', sans-serif;
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
 }
 
 label {
+    font-family: 'Ysabeau SC', sans-serif;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
 input, textarea {
+    font-family: 'Ysabeau SC', sans-serif;
     padding: 0.5rem;
     font-size: 1rem;
     border: 1px solid #ccc;
@@ -24,10 +28,12 @@ input, textarea {
 
 
 h2 {
+    font-family: 'Ysabeau SC', sans-serif;
     text-align: center;
 }
 
 .ordenId {
+    font-family: 'Ysabeau SC', sans-serif;
     display: block;
     margin: 4rem;
     padding: 2rem;

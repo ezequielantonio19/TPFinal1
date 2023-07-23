@@ -1,0 +1,75 @@
+/* Estilos para el componente Cart */
+.cart {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart h2 {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .cart-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .cart-item h4 {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .cart-item p {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+  
+  .cart-item p.subtotal {
+    font-family: 'Ysabeau SC', sans-serif;
+    color: #2196f3;
+    font-weight: bold;
+  }
+  
+  .cart-item button {
+    font-family: 'Ysabeau SC', sans-serif;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cart-item button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .cart-total {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .cart-checkout-button {
+    font-family: 'Ysabeau SC', sans-serif;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cart-checkout-button:hover {
+    background-color: #1976d2;
+  }
+  
